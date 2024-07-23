@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #363636;
+}
+
+.test{
+    border: 1px solid red;
+}
+.fs_12 p{
+    font-size: 12px;  
+    color: white; 
+}
+.fs_14{
+  font-size: 14px;
+}
+.fs_12 i{
+    color: #25BB70;  
+}
+.cus_color{
+    color: #25BB70;  
+}
+.fs_18{
+    font-size: 18px;
+}
+.fs_60{
+    font-size: 60px !important; 
+    line-height: 60px !important;
+}
+.text_weight{
+  font-weight: 600;
+}
+.icon_size{
+    color: white;
+}
+.bg_banner{
+    background-image: url(./img/banner-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 140vh;
+}
+.nav-item a{
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+.bg_nav_btn{
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #31A440;
+    color: white;
+    border-style: none;
+}
+.bg_header {
+    position: relative;
+    z-index: 1;  
+  }
+  
+  .bg_header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  background-color: rgba(0,0,0, 0.5);
+    backdrop-filter: blur(8px); /* Adjust the blur amount as needed */
+    z-index: -1; /* Ensure the pseudo-element is behind the text */
+  }
+  .solar_img{
+    width: 150px; position: absolute; top: -25px;
+  }
+  .energy_co{
+    font-size: 93px;
+    font-weight: 800;
+    position: relative; 
+    left: 190px;
+  }
+  .main_energy_div{
+    position: relative; 
+    top: -40px; 
+    z-index: 10;
+  }
+  .fs_Planet h1{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white;
+  }
+  .fs_Planet p{
+    font-size: 20px;
+    color: #D1D1D1;
+    margin: 20px 0;
+  }
+  .box_div{
+    position: absolute; width: 900px;
+    margin-top: 100px;
+    color: black !important;
+  }
+   .mt_top{
+    margin-top: 25rem;
+   }
+   .fs_24{
+    font-size: 24px;
+   }
+   .Panel_Services_section{
+    padding: 80px 0;
+   }
+  .gothic{
+      font-size: 16px;
+  }
+  .P_gothic{
+      font-size: 12px;
+  }
+  .fa-star{
+      color: #FDC104;
+  }
+  .slider_img_style{
+      height: 50px; width: 50px;
+  }
+  .slider_img_style img{
+      height: 50px; width: 50px;
+  }
+  .customers_say{
+      z-index: 1;
+  }
+
+.accordion-button .icon::before {
+    content: "+";
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 40px;
+    color: white !important;
+}
+
+.accordion-button[aria-expanded="true"] .icon::before {
+    content: "-";
+    font-size: 50px;
+    color: white !important;
+}
+.accordion-button::after {
+    display: none;
+    border-style: none !important;
+}
+.accordion-item{
+    background-color: transparent;
+    border-style: none;
+    box-shadow: none !important;
+    border-bottom: 1px solid #9A9A9A;
+    border-radius: 0px !important;
+}
+
+/* marquee animation start*/
+.marquee {
+      overflow: hidden;
+    }
+    
+    .marquee-content {
+      display: flex;
+      animation: scrolling 15s linear infinite;
+    }
+    
+    .marquee-item {
+      flex: 0 0 16vw;
+      margin: 0 1vw;
+    }
+    
+    .marquee-item img {
+      display: block;
+      width: 150px;
+    }
+    
+    @keyframes scrolling {
+      0% { transform: translateX(0); }
+      100% { transform: translatex(-144vw); }
+    }  
+/* marquee animation end*/
+
+.ul_style a{
+  list-style: none;
+  text-decoration: none;
+  color: #646464;
+  line-height: 30px;
+}
+.ul_style i{
+  color: #25BB70;
+}
+.e_mail li{
+  font-size: 14px;
+}
+.w_90{
+  width: 90%;
+}
+.email_background_img{
+  background-image: url(./img/solar-panel-texture.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bg_overlaye{
+  background-color: rgba(0,0,0, 0.9);
+}
+.footer_space{
+  margin-bottom: 250px;
+  height: 90vh;
+}
+
+  @media only screen and (max-width: 1399px) {
+    .fs_Planet h1{
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 90px;
+        color: white;
+      }
+      .fs_Planet p{
+        font-size: 16px;
+        color: #D1D1D1;
+        margin: 20px 0;
+      }
+      .fs_60{
+        font-size: 40px !important; 
+        line-height: 50px !important;
+    }
+    .solar_img{
+        width: 100px; position: absolute; top: -25px;
+      }
+      .energy_co{
+        font-size: 80px;
+        font-weight: 800;
+        position: relative; 
+        left: 120px;
+      }
+      .box_div{
+        position: absolute; width: 55%;
+        margin-top: 100px;
+        color: black !important;
+      }
+      .bg_banner{
+        height: 140vh;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    .fs_Planet h1{
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 60px;
+        color: white;
+      }
+      .fs_Planet p{
+        font-size: 14px;
+        color: #D1D1D1;
+        margin: 20px 0;
+      }
+      .energy_co{
+        font-size: 70px;
+        font-weight: 800;
+        position: relative; 
+        left: 120px;
+      }
+      .bg_banner{
+        height: 130vh;
+    }
+    .footer_space{
+      height: 110vh;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .box_div{
+        position: static; 
+        width: 100%;
+        margin-top: 100px;
+        color: black !important;
+      }
+      .energy_co{
+        font-size: 60px;
+        font-weight: 800;
+        position: relative; 
+        left: 120px;
+      }
+       .bg_banner{
+        height: auto;
+    }
+    .mt_top{
+      margin-top: 5rem;
+     }
+     .footer_space{
+      margin-bottom: 0;
+      height: auto;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .main_energy_div{
+        position: static; 
+        top: -40px; 
+        z-index: 10;
+        left: 58px;
+      }
+      .solar_img {
+        width: 50px;
+        position: absolute;
+        top: 12px;
+        left: 84px;
+    }
+    .energy_co{
+        font-size: 26px;
+        font-weight: 900;
+        position: relative; 
+        left: 120px;
+        top: -29px;
+      }
+      .fs_Planet h1 {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 50px;
+        color: white;
+    }
+    .fs_60{
+        font-size: 30px !important; 
+        line-height: 40px !important;
+    }
+    .box_div{
+        margin-top: 70px;
+      }
+      .w_90{
+        width: 100%;
+      }
+      .bg_banner{
+        height: auto;
+    }
+    .mt_top{
+      margin-top: 5rem;
+     }
+     .footer_space{
+      margin-bottom: 0;
+      height: auto;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .bg_banner{
+      height: auto;
+  }
+  .footer_space{
+    margin-bottom: 0;
+    height: auto;
+  }
+  }
